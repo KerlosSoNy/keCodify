@@ -6,7 +6,7 @@ export default function Testimonials() {
         <section aria-labelledby="sale-heading" className="relative mx-auto flex max-w-7xl flex-col items-center px-4 pt-32 text-center sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <h2 id="sale-heading" className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">Unlock Your Interview Potential!</h2>
-          <p className="mx-auto mt-4 max-w-xl text-xl text-gray-600">Access curated coding interview questions, expert solutions, and resources designed to help you land your dream tech job. Don't wait—start your preparation today!</p>
+          <p className="mx-auto mt-4 max-w-xl text-xl text-gray-600">Access curated coding interview questions, expert solutions, and resources designed to help you land your dream tech job. Do not wait—start your preparation today!</p>
           <Link href="/category" className="mt-6 inline-block w-full rounded-md border border-transparent bg-gray-900 px-8 py-3 font-medium text-white hover:bg-cyan-800 sm:w-auto">Explore Questions Now</Link>
         </div>
       </section>

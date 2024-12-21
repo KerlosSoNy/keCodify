@@ -6,6 +6,7 @@ const page = () => {
 
   return (
     <div className="w-full md:w-10/12 mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h2 class="text-3xl font-bold text-gray-900 text-center my-8">Categories</h2>
       <ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
         {categories?.map((category) => (
           <li key={category.name}>

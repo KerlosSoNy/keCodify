@@ -1,7 +1,7 @@
 import Collection from "../components/Collection";
 import HeroBanner from "../components/HeroBanner";
-import HomeProducts from "../components/HomeProducts";
-
+import Faqs from "../components/faqs/faqs";
+import Testimonials from "../components/testimonials/testimonials";
 export const metadata = {
   metadataBase: new URL("https://cross-walk.vercel.app"),
   title: {
@@ -31,10 +31,8 @@ export default function Home() {
     <div className="flex flex-col">
       <HeroBanner />
       <Collection />
-      <span className="text-2xl font-bold text-center mt-10 mb-10">
-        Recent Products List
-      </span>
-      <HomeProducts show={true} />
+      <Faqs />
+      <Testimonials/>
     </div>
   );
 }

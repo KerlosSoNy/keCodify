@@ -65,7 +65,7 @@ const Collection = () => {
               <Image
                 height={300}
                 width={500}
-                src="/assets/collection-01.avif"
+                src="/assets/collection-01.jpg"
                 alt=""
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
               />

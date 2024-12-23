@@ -26,10 +26,34 @@ export const categories = [
     },
     {
       name: "Next.js Collection",
-      link: "next.js",
+      link: "next-js",
       image:
         "/assets/collection-02.webp",
     },
+    {
+      name: "Redux",
+      link: "redux",
+      image:
+      "/assets/collection-10.jpg",
+    },   
+    {
+      name: "React native",
+      link: "react-native",
+      image:
+      "/assets/collection-09.jpg",
+    },
+    {
+      name: "Angular",
+      link: "angular",
+      image:
+      "/assets/collection-8.jpg",
+    }, 
+    {
+      name: "flutter",
+      link: "flutter",
+      image:
+      "/assets/collection-07.jpg",
+      },
     {
       name: "Soon...",
       link: "Soon",

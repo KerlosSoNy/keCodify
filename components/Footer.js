@@ -74,53 +74,53 @@ const Footer = () => {
 
                 <ul className="mt-6 space-y-4 text-sm">
                   <li>
-                    <a
-                      href="#!"
+                    <Link
+                      href="/category/html-collection"
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       {" "}
                       Html
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
-                      href="#!"
+                    <Link
+                      href="/category/css"
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       {" "}
                       Css
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
-                      href="#!"
+                    <Link
+                      href="/category/react"
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       {" "}
                       React.js
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
-                      href="#!"
+                    <Link
+                      href="/category/next-js"
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       {" "}
                       Next.js
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
-                      href="#!"
+                    <Link
+                      href="/category"
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       {" "}
                       All Categories
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

@@ -49,17 +49,11 @@ export const categories = [
       "/assets/collection-8.jpg",
     }, 
     {
-      name: "flutter",
+      name: "Flutter",
       link: "flutter",
       image:
       "/assets/collection-07.jpg",
       },
-    {
-      name: "Soon...",
-      link: "Soon",
-      image:
-        "/assets/collection-06.avif",
-    },
   ];
 
 

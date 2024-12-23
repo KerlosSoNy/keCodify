@@ -3,10 +3,10 @@ import Link from "next/link";
 import Mobile from "./Mobile";
 import { useState } from "react";
 import { RiMenu3Line } from "react-icons/ri";
+import { categories } from "../app/constant/constant";
 
 export default function Header(){
   const [isOpen, setIsOpen] = useState(false);
-  const [categories, ] = useState([]);
   return (
     <div className="w-full relative">
           <div className="flex flex-row justify-between mx-2 h-16 items-center md:mx-4 lg:mx-10 p-2">

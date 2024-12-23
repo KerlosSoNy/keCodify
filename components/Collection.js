@@ -17,7 +17,7 @@ const Collection = () => {
 
         <ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
           <li>
-            <Link href={"/"} className="group relative block">
+            <Link href={"/category/next-js"} className="group relative block">
               <Image
                 height={300}
                 width={300}
@@ -39,7 +39,7 @@ const Collection = () => {
           </li>
 
           <li>
-            <Link href={"/category/Kids"} className="group relative block">
+            <Link href={"/category/react"} className="group relative block">
               <Image
                 height={300}
                 width={300}
@@ -61,7 +61,7 @@ const Collection = () => {
           </li>
 
           <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
-            <Link href={"/category/Women"} className="group relative block">
+            <Link href={"/category/javascript"} className="group relative block">
               <Image
                 height={300}
                 width={500}

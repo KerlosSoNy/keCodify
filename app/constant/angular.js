@@ -509,4 +509,3 @@ export const angularinterview = [
     }
 ];
 
-console.log(angularinterview);

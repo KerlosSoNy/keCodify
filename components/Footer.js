@@ -52,22 +52,6 @@ const Footer = () => {
 
         <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
-            <div>
-              <p>
-                <span className="text-xs uppercase tracking-wide text-gray-500">
-                  {" "}
-                  Call us{" "}
-                </span>
-
-                <a
-                  href="#!"
-                  className="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl"
-                >
-                  01019085973
-                </a>
-              </p>
-            </div>
-
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div>
                 <p className="font-medium text-gray-900">Services</p>

@@ -1,14 +1,25 @@
 "use client";
 import Link from "next/link";
 import Mobile from "./Mobile";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { RiMenu3Line } from "react-icons/ri";
 import { categories } from "../app/constant/constant";
 
 export default function Header(){
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    // Cleanup on unmount
+    return () => document.body.classList.remove("no-scroll");
+  }, [isOpen]);
   return (
-    <div className="w-full relative">
+    <div className="w-full">
           <div className="flex flex-row justify-between mx-2 h-16 items-center md:mx-4 lg:mx-10 p-2">
           <Link className=" text-teal-600" href="/">
             <span className="sr-only">Home</span>
@@ -56,7 +67,7 @@ export default function Header(){
           </div>
       {isOpen && (
         <div
-          className={`absolute left-0 top-0 w-52 lg:hidden bg-white shadow-lg rounded-lg z-50`}
+          className={`absolute h-[100vh] left-0 top-0 w-52 lg:hidden bg-white shadow-lg rounded-lg z-50`}
         >
           <Mobile setIsOpen={setIsOpen} categories={categories} />
         </div>

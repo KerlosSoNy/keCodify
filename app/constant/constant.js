@@ -1,31 +1,31 @@
 export const categories = [
    
     {
-      name: "HTML Collection",
+      name: "HTML",
       link: "html-collection",
       image:
         "/assets/collection-04.webp",
     },
     {
-      name: "CSS Collection",
+      name: "CSS",
       link: "css",
       image:
         "/assets/collection-05.png",
     },
     {
-      name: "Javascript Collection",
+      name: "Javascript",
       link: "javascript",
       image:
         "/assets/collection-01.jpg",
     },
     {
-      name: "React.js Collection",
+      name: "React.js",
       link: "react",
       image:
         "/assets/collection-03.svg",
     },
     {
-      name: "Next.js Collection",
+      name: "Next.js",
       link: "next-js",
       image:
         "/assets/collection-02.webp",

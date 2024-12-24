@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Mobile = ({ setIsOpen, categories }) => {
   return (
-    <div>
-      <div className="flex h-screen flex-col justify-between border-e bg-white">
+    <div >
+      <div className="flex h-screen overflow-y-auto scrollbar-hide flex-col justify-between border-e bg-white">
         <div className="px-4 py-6">
           <Link onClick={() => setIsOpen(false)} href="/">
             <svg
@@ -64,6 +64,7 @@ const Mobile = ({ setIsOpen, categories }) => {
                     return (
                       <li key={category}>
                         <Link
+                          onClick={() => setIsOpen(false)}
                           href={`/category/${category.link}`}
                           className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
                         >

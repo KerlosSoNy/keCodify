@@ -37,12 +37,12 @@ export default function RootLayout({ children }) {
       <head>
       <meta name="google-site-verification" content="ymYfjvSdKiU-l4BrhY98KgFhOGRcRpehbUUsIKvpaW8" />
       </head>
-      <body className={inter.className}>
-        <NextTopLoader color="#000" height={4} />
-                <NavBar />
-                <Toaster />
-                {children}
-                <Footer />
+      <body className={`${inter.className} relative`}>
+          <NextTopLoader color="#000" height={4} />
+          <NavBar />
+          <Toaster />
+          {children}
+          <Footer />
       </body>
     </html>
   );

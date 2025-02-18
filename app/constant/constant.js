@@ -112,5 +112,17 @@ export const ourTeam = [
         role : "Researcher",
         image : "/assets/ourteam-02.jpg",
         linkedin : "https://www.linkedin.com/in/meray-ashraf-b41905307/"
-    }
+    },
+    {
+        name: "Ahmed Zaydan",
+        role : "Mobile Developer",
+        image : "/assets/zaydan.jpg",
+        linkedin : "www.linkedin.com/in/ahmed-zaydan"
+    },
+    {
+        name: "Ahmed Fayek",
+        role : "Mobile Developer",
+        image : "/assets/fayak.jpg",
+        linkedin : "https://www.linkedin.com/in/ahmedmfayek/"
+    },
 ]
